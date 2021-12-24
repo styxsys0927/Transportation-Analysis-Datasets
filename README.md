@@ -3,7 +3,7 @@ Collections of datasets for different traffic analysis tasks
 
 ## Traffic forecasting
 ### Static sensors (does not include camera or radar data)
-For forcasting tasks, the dataset usually contain two parts: a list of features detected by each sensors every k minitues (shape=[T*k minitues,N detectors, F features], k is usually 5 and F is usually 1) and an adjacent matrix of size N*N. The adjacent matrix is usually generated from geographical distances between detectors.
+For forcasting tasks, the dataset usually contain two parts: a list of features detected by each sensors every k minitues (shape=[T*k minitues, N detectors, F features], k is usually 5 and F is usually 1) and an adjacent matrix of size N * N. The adjacent matrix is usually generated from geographical distances between detectors.
 - **METR-LA:** Los Angeles freeway data. Can be found at https://github.com/liyaguang/DCRNN. We employ the pre-processed version at https://github.com/Fanglanc/DKFN (1 month * 207 sensors). 
 - **Seattle Inductive Loop Detector Dataset:** See details at https://github.com/zhiyongc/Seattle-Loop-Data (2 months * 323 sensors).
 - **INRIX traffic network:** The dataset is used in https://arxiv.org/ftp/arxiv/papers/1802/1802.07007.pdf. One may apply for authority at https://docs.inrix.com/ for more data.
